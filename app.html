@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="Jogo mata aliens" />
+    <meta name="author" content="Douglas Cortez & Gabriel Bernardi" />
+    <title>Mata aliens</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="game.js" defer></script>
+  </head>
+  <body onresize="adjustGameStageSize()">
+    <div class="panel">
+      <div class="lifes">
+        <img id="l1" class="fullLife" src="imgs/Vida.png" /><img
+          id="l2"
+          class="fullLife"
+          src="imgs/Vida.png"
+        /><img id="l3" class="fullLife" src="imgs/Vida.png" />
+      </div>
+      <div class="stopwatch">Tempo restante: <span id="stopwatch"></span></div>
+    </div>
+  </body>
+</html>
